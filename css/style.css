@@ -178,7 +178,7 @@ a:hover {
 .about {
 	float: left;
 	margin-top: 30px;
-	width: 490px;
+	width: auto;
 	margin-left: 20px;
 }
 
@@ -292,7 +292,7 @@ span.word-wrap a {
 	padding-right: 130px;
 }
 
-.tabs {
+#tabs {
 	padding-left: 165px;
 	height: 116px;
 	position: absolute;
@@ -300,12 +300,12 @@ span.word-wrap a {
 	z-index: 100;
 }
 
-.tabs li {
+#tabs li {
 	float: left;
 	height: 116px;
 }
 
-.tabs li > a {
+#tabs li > a {
     padding-top: 28px;
     width: 115px;
     display: inline-block;
@@ -320,16 +320,16 @@ span.word-wrap a {
     text-decoration: none;
 }
 
-.tabs li.active {
+#tabs li.active {
 	background: url('../images/tab-hover.png') no-repeat;
 }
 
-.tabs li.active a {
+#tabs li.active a {
 	color:#263bff;
      
 }
 
-.tabs li > a > i {
+#tabs li > a > i {
 	font-size: 45px;
 	font-family: 'icomoon';
 	display: block;
@@ -951,7 +951,7 @@ footer .copyright {
 	
 } */
 @media (min-width: 320px) and (max-width: 991px) {
-	.tabs .tmenu{
+	#tabs .tmenu{
 		font-size: .5rem;
 	}
  .left-name h2 {
@@ -980,7 +980,7 @@ footer .copyright {
     border-left: 0px solid #edde45;
     max-width: 100%;
 }
-.col-md-4.intetst-box {
+.col-md-4.interst-box {
     width: 50%;
 }
 .address-right-box {
@@ -989,4 +989,96 @@ footer .copyright {
 .right-skills {
     width: auto;
 }
+}
+@media screen and (max-width: 1200px){
+	#tabs{
+		padding-left: 112px;
+	}
+}
+@media screen and (max-width: 990px){
+	#tabs li > a > i {
+		font-size: 2rem;
+		font-family: 'icomoon';
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#tabs{
+		padding-left: 6px;
+	}
+}
+@media screen and (max-width: 768px) {
+	#tabs{
+		padding-left: 0px;
+	}
+	#tabs li > a {
+		font-size: 10px;
+	}
+	#tabs li > a > i {
+        font-size: 1rem;
+	}
+	#tabs li.active {
+		background: none;
+	}
+	
+	.about .photo-inner {
+		display: none;
+	}
+	#tabs li > a {
+		padding-top: 38px;
+		width: 68px;
+		display: inline-block;
+		background-repeat: no-repeat;
+		font-size: 12px;
+		color: #b9b9b9;
+	}
+	.contact-form{
+		margin-left: 0;
+		width: auto;
+	}
+	#portfolio{
+		padding: 0;
+	}
+}
+@media screen and (max-width: 572px){
+        .menu{
+		padding-left: 0;
+		}
+}
+@media screen and (max-width: 346px){
+	#tabs li > a{
+		font-size: 10px;
+	}
+	#tabs li > a > i {
+                display: none;
+	}
+	#tabs li {
+		height: 100px;
+		padding: 0;
+		margin: 0;
+	}
+	.personal-info{
+		background: none;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.personal-info li span{
+		display: block;
+		width: 100%;
+	}
+	.personal-info li label{
+                display: block;
+		width: 100%;
+		color: rgb(233, 177, 255);
+		padding: 1px;
+	}
+	li.personal{
+            margin-bottom: 8px;
+            padding-bottom: 0;
+            width: 100%;
+	}
+	#portfolio{
+		padding: 0;
+	}
 }
