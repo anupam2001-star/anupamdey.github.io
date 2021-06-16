@@ -5,12 +5,8 @@ jQuery(document).ready(function () {
       logo.show();
    }
 
-   $('.menu .tabs a').click(function () {
+   $('li.tmenu a').click(function () {
       logo.fadeIn();
-   });
-
-   $('.tab-profile').click(function () {
-      logo.fadeOut();
    });
 
    $('#yellow-color').click(function () {
