@@ -160,7 +160,11 @@ a:hover {
 	-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
 }
-
+section.container-fluid{
+    width: 82%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
 /*-------------------------------------------------------*/
 
 /* profile */
