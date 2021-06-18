@@ -214,6 +214,7 @@ h3.main-heading .now {
 }
 
 .about p {
+	width: 600px;
 	font-size: 14px;
 	margin-top: 15px;
 	color: #fff;
