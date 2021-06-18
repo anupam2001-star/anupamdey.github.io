@@ -925,7 +925,7 @@ button#setting-icon {
 
 .contact-form{
 	width: 530px;
-	margin-left: 150px;
+	margin-left: 4rem;
 }
 
 
@@ -946,10 +946,8 @@ footer .copyright {
 }
 
 
+/* responsive */
 
-   /* @media (min-width: 992px) and (max-width: 1199px) {
-	
-} */
 @media (min-width: 320px) and (max-width: 991px) {
 	#tabs .tmenu{
 		font-size: .5rem;
