@@ -6,7 +6,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	 font-family: 'Roboto Condensed', sans-serif;
-	font-size: 12px;
+	font-size: .75rem;
 }
 a {
 	text-decoration:none !important;
@@ -35,19 +35,19 @@ h6 {
     padding: 0px;
 }
 .progress {
-    height: 8px;
-    margin-top: 10px;
+    height: .5rem;
+    margin-top: .625rem;
 }
 .heading-skills h3 {
     color: #fff;
-    font-size: 21px;
+    font-size: 1.3125rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: .125rem;
     font-weight: 600;
-    padding-bottom: 14px;
+    padding-bottom: .875rem;
 }
 .mt-25 {
-    margin-top: 25px;
+    margin-top: 1.5625rem;
 }
 .bg-warning {
     background-color: #263bff !important;
@@ -58,7 +58,7 @@ h6 {
 /* header */
 header {
     position: relative;
-    height: 100px;
+    height: 6.25rem;
     margin-bottom: 1.25rem;
     margin-top: 2rem;
     overflow: hidden;
@@ -68,20 +68,20 @@ header {
 #logo {
 	float: left;
 	overflow: hidden;
-	margin-left: 10px;
+	margin-left: 0.625rem;
 	display: none;
 }
 
 #logo h2 {
-	font-size: 30px;
+	font-size: 1.875rem;
 	font-weight: 900;
 	color: #444;
-	line-height: 40px;
+	line-height: 1.875rem;
 }
 
 #logo h4 {
 	color: #666;
-	line-height: 20px;
+	line-height: 1.25rem;
     font-family: 'Roboto Condensed', sans-serif;
 }
 /*-------------------------------------------------------*/
@@ -90,27 +90,27 @@ header {
 
 /*-------------------------------------------------------*/
 h1 {
-	font-size: 37px;
+	font-size: 2.3125rem;
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 1.875rem;
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 1.25rem;
 }
 
 h4 {
-	font-size: 15px;
+	font-size: 0.9375rem;
 }
 
 h5 {
-	font-size: 13px;
+	font-size: 0.8125rem;
 }
 
 h6 {
-	font-size: 12px;
+	font-size: 0.75rem;
 }
 
 strong {
@@ -119,12 +119,12 @@ strong {
 }
 
 h3.main-heading {
-	margin: 0px 2px 20px 0px;
+	margin: 0 0.125rem 1.25rem 0;
 	border-bottom: 1px solid #ebebeb;
-	padding-bottom: 14px;
+	padding-bottom: 0.875rem;
 	color: #333;
-	line-height: 16px;
-	font-size: 24px;
+	line-height: 1rem;
+	font-size: 1.5rem;
 	font-weight: 500;
 	display: block;
 	clear: both;
@@ -140,7 +140,7 @@ h3.main-heading .now{
 
 h3.main-heading::after {
 	content: '';
-	width: 40px;
+	width: 2.5rem;
 	height: 1px;
 	position: absolute;
 	left: 0;
@@ -813,9 +813,12 @@ button#setting-icon {
 }
 
 #portfolio .cats-filter {
-	border-bottom: 1px solid #ebebeb;
-	overflow: hidden;
-	padding: 15px 0;
+    border-bottom: 1px solid #ebebeb;
+    overflow: hidden;
+    padding: 12px 34px;
+    text-align: center;
+    width: 12%;
+    margin: auto;
 }
 
 .cats-filter li a {
