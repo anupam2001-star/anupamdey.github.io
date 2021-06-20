@@ -1257,6 +1257,9 @@ footer .copyright {
 		margin: 0 7.5rem;
 		padding: 0 1rem;
 	}
+	#showcase{
+	        padding-left: 12rem;
+	}
 }
 
 @media screen and (max-width: 572px) {
