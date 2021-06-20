@@ -885,14 +885,8 @@ button#setting-icon {
 	align-items: center;
 	/* padding: 4rem 16rem 6rem 15rem; */
 }
-.carousel-item{
-    transition: transform 1.5s ease, opacity .5s ease-out;
-}
-.carousel-item img{
-    width: 100%;
-	height: auto;
-}
-#portfolio-list {
+
+#showcase {
 	width: 820px;
 	overflow: hidden;
 }
@@ -903,39 +897,23 @@ button#setting-icon {
 		padding: 0;
 	}
 }
-#portfolio-list li {
-	float: left;
-	margin-right: 25px;
-	text-align: center;
-	background-color: #fbfbfb;
-	border-bottom: 1px solid #e5e5e5;
-	height: 185px;
-	margin-bottom: 30px;
-	width: 180px;
-	transition: all 0.5s ease;
-	animation: all 0.5s ease;
-	-webkit-animation: all 0.5s ease;
-	-o-animation: all 0.5s ease;
-	-moz-animation: all 0.5s ease;
-	-ms-animation: all 0.5s ease;
-}
 
-#portfolio-list li:hover {
+#showcase li:hover {
 	border-bottom: 1px solid #263bff;
 	height: 185px;
 }
 
-#portfolio-list li img {
+#showcase li img {
 	background-color: #ffffff;
 	height: 120px;
 	width: 185px;
 }
 
-#portfolio-list li:hover .title {
+#showcase li:hover .title {
 	color: #263bff;
 }
 
-#portfolio-list li .title {
+#showcase li .title {
 	font-size: 14px;
 	margin-top: 15px;
 	font-weight: 600;
@@ -944,155 +922,21 @@ button#setting-icon {
 	text-transform: uppercase;
 }
 
-#portfolio-list li .categorie {
+#showcase li .categorie {
 	font-size: 11px;
 	line-height: 25px;
 	color: #999;
 }
      /* Portfolio Section */
-
-/*-------------------------------------------------------*/
-.row > .column {
-	padding: 0 8px;
-  }
-  .modal-content {
-	  position: relative;
-	  background-color: #fefefe;
-	  margin: auto;
-	  padding: 0;
-	  width: 90%;
-	  width: 572px;
-	  max-width: 100%;
-  }
-  .row:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
-  
-  .column {
-	float: left;
-	width: 25%;
-  }
-  .close {
-	  opacity: .7;
-  }
-  .prev:hover, .next:hover {
-	  background-color: rgba(0, 0, 0, 0.8);
-	  color: #fff!important;
-  }
-  /* The Modal (background) */
-  .modal {
-	display: none;
-	position: fixed;
-	z-index: 999;
-	padding-top: 100px;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	overflow: auto;
-	background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Modal Content */
-  
-  /* The Close Button */
-  .close {
-	color: white;
-	position: absolute;
-	top: 10px;
-	right: 25px;
-	font-size: 35px;
-	font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-	color: #999;
-	text-decoration: none;
-	cursor: pointer;
-  }
-  
-  .mySlides {
-	display: none;
-  }
-  
-  .cursor {
-	cursor: pointer;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	padding: 16px;
-	margin-top: -50px;
-	color: white;
-	font-weight: bold;
-	font-size: 20px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-	-webkit-user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-	background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-	color: #f2f2f2;
-	font-size: 12px;
-	padding: 8px 12px;
-	position: absolute;
-	top: 0;
-  }
   
   img {
 	margin-bottom: -4px;
   }
   
-  .caption-container {
-	text-align: center;
-	background-color: black;
-	padding: 2px 16px;
-	color: white;
-  }
-  
-  .demo {
-	opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-	opacity: 1;
-  }
-  
-  img.hover-shadow {
-	transition: 0.3s;
-  }
-  
-  .hover-shadow:hover {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
   #portfolio {
 	  padding: 20px 20px 20px 20px;
   }
   
-  /* Images list */
   #showcase {
 	  display: flex;
 	  flex-direction: column;
@@ -1165,8 +1009,6 @@ button#setting-icon {
 	width: 100%;
 }
 
-
-
 .social-icons-container ul {
 	padding: 1rem 3rem;
 }
@@ -1187,10 +1029,6 @@ button#setting-icon {
 	flex-direction: column;
 
 }
-
-
-
-
 
 .contact-info {
 	margin-left: 22px;
@@ -1218,7 +1056,7 @@ button#setting-icon {
 	margin-left: -2rem;
 }
 .contact-form iframe{
-	width: 22.5rem; 
+	width: 25.5rem; 
 	height: 57.8125rem;
 }
 
@@ -1305,6 +1143,10 @@ footer .copyright {
 	.right-skills {
 		width: auto;
 	}
+	.contact-form iframe{
+	width: 20.5rem; 
+	height: 57.8125rem;
+}
 }
 
 @media screen and (max-width: 1200px) {
@@ -1511,7 +1353,7 @@ footer .copyright {
 		display: none;
 	}
 	.contact-form iframe{
-		width: 15rem; 
+		width: 17rem; 
 		height: 35rem;
 	}
 }
@@ -1542,7 +1384,7 @@ footer .copyright {
 		width: 10rem;
 	}
 	.contact-form iframe{
-		width: 10rem; 
+		width: 12rem; 
 		height: 25rem;
 	}
 }
@@ -1634,5 +1476,11 @@ footer .copyright {
 	}
 	.ex-box {
 		padding: 0;
+	}
+}
+@media screen and (max-width: 282px) {
+	.contact-form iframe{
+		width: 8rem; 
+		height: 18rem;
 	}
 }
