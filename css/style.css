@@ -1229,7 +1229,8 @@ footer .copyright {
 
 	.eduction-right {
 		display: inline-block;
-		padding: 1rem;
+		padding: 5rem .75rem;
+		margin-top: 2rem;
 	}
 
 	#tabs li>a {
@@ -1266,6 +1267,9 @@ footer .copyright {
 	.menu {
 		padding-left: 8rem;
 		padding-right: 8rem;
+	}
+	.address-right-box {
+		display:none;
 	}
 }
 
